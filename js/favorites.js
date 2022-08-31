@@ -26,8 +26,15 @@ export class Favorites {
       const user = await GithubUser.search(username)
       
       if(user.login === undefined) {
+        
+        if(this.entries.length === 0) {
+          console.log(user.login)
+          this.changeScreen()
+        }
+
         throw new Error(`Usuário "${username}" não encontrado!`)
       }
+      
 
       this.entries = [user, ...this.entries]
 
@@ -44,7 +51,10 @@ export class Favorites {
     const filteredEntries = this.entries.filter(entry => entry.login !== user.login)
     this.entries = filteredEntries
 
-    this.changeScreen()
+    if(this.entries.length === 0) {
+      this.changeScreen()
+    }
+
     this.update()
     this.save()
   }
@@ -64,8 +74,8 @@ export class FavoritesView extends Favorites {
     const screenTwo = this.root.querySelector(".screen2")
 
     if(this.entries.length === 0) {
-      screenOne.classList.toggle("hide")
-      screenTwo.classList.toggle("hide")
+        screenOne.classList.toggle("hide")
+        screenTwo.classList.toggle("hide")
     }
   }
 
@@ -74,11 +84,14 @@ export class FavoritesView extends Favorites {
     buttonAdd.addEventListener("click", () => {
       const { value } = this.root.querySelector("#input-search")
 
-      this.changeScreen()
+      if(this.entries.length === 0) {
+        this.changeScreen()
+      }
+
       this.add(value)
 
-      this.update()
-      this.save()
+      this.update();
+      this.save();
     })
   }
 
@@ -104,7 +117,6 @@ export class FavoritesView extends Favorites {
       }
 
       this.tbody.append(row)
-
     })
   }
 
