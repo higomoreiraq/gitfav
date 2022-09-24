@@ -1,52 +1,87 @@
-# GitFav
-Aplicação para cadastrar seus perfis favoritos do github.
+# GitFav ⭐️
 
+Aplicação para registrar os seus perfis favoritos de Github.
 
 ![image](https://user-images.githubusercontent.com/107502907/187459896-cd273562-7a92-4833-bbed-d63170c979a5.png)
 
------------------------- Português ------------------------
+## Descrição
 
 A aplicação começa resetada, onde o usuário pode configurar do seu jeito, com seus perfis favoritos.
-É possível adicionar e remover perfis quantas vezes quiser, e a lista ainda continuará salva para o usuário.
-Caso o usuário tente inserir um perfil repetido, receberá uma mensagem em "alert()" informando que o Usuário já está cadastrado! 
-e caso deseje excluir um dos perfis já listados, receberá também outra mensagem em "confirm()" perguntando se deseja realmente excluir este usuário.
-A lista de usuários é feita a partir de uma tabela, onde ao adicionar uma certa quantidade de perfis favoritos suficientes para preencher a altura máxima da tabela,
-gera-se automaticamente um scroll personalizado no canto direito da tbody.
+É possível adicionar e remover perfis quantas vezes quiser, e a lista ainda continuará salva no seu navegador.
 
-No GitFav, foi implantado em seu JavaScript: orientação a objeto com o princípio de Classes, princípio da Imutabilidade, localStorage, Try/Catch/Throw, 
-Assincronísmos com .fetch e async/await, JSON.parje(), .forEach(), .append(), funções de alta ordem para arrays como .filter() e .find(), e muito mais.
-E em seu CSS, novidades como scrollbar e overflow.
+Caso tente inserir um perfil repetido, receberá uma mensagem em "alert()" informando "Usuário já cadastrado!"
+e caso deseje excluir um dos perfis já listados, receberá também outra mensagem em "confirm()" perguntando "Deseja realmente excluir este usuário?"
 
-Disponibilizo abaixo mais algumas imagens da aplicação.
+A lista de usuários é feita a partir de uma tabela, onde ao adicionar uma certa quantidade de perfis favoritos, suficientes para preencher a altura máxima da tabela,
+gera-se automaticamente um "scroll" personalizado no canto direito da "tbody".
 
-E aqui você pode acessar também o link do deploy: https://higomoreiraq.github.io/GitFav/
+## Estrutura
 
+### Implantações no JavaScript: 
 
------------------------- English ------------------------
+- Orientação a objeto com o princípio de Classes; 
+- Princípio da Imutabilidade;
+- localStorage;
+- Try/Catch/Throw;
+- Assincronísmos com .fetch e async/await;
+- JSON.parje(), .forEach(), .append();
+- e funções de alta ordem para arrays como .filter() e .find().
 
-The application starts reset, where the user can configure his way, with his favorite profiles.
-It's add and remove times, and the list even more details possible for the user.
-If the user tries to insert a profile, he will receive a message in "alert()" informing that the user is already registered!
-If you want to delete a user now, also receive another message, contact this user already defined.
-The list of users is made from a table, where to add a certain amount of suitable profiles to fill the table's minimum height,
-a custom scroll is automatically generated in the right corner of the tbody.
+### Implantações no CSS
 
-GitFav, has been implemented in your JavaScript: object-oriented with the principle of Classes, principle of Immutability, localStorage, TryCatch/Throw,
-Asynchronisms with .fetch and async/await, JSON.parje(), .forEach(), .append(), higher-order functions for arrays like .filter() and .find(), and much more.
-And in your CSS, new features like scrollbar and overflow.
+- Scrollbar;
+- Overflow.
 
-Availability below some more images of the application.
+## Tecnologias utilizadas:
 
-And here you can also access the deploy link: https://higomoreiraq.github.io/GitFav/
+- HTML;
+- CSS;
+- JavaScript.
 
+## Preview
 
+Para conferir a aplicação, acesse:
+
+- https://higomoreiraq.github.io/gitfav/
+
+## Contato
+
+[![bio](https://img.shields.io/badge/bio_higomoreiraq-42D3FF?style=for-the-badge&logo=ko-fi&logoColor=white)](https://higomoreiraq.github.io/Bio-Higo-Moreira/)
+
+## Screenshots
+
+### Screen 1
+- Página inicial com lista de usuários vazia.
+![image](https://user-images.githubusercontent.com/107502907/187459896-cd273562-7a92-4833-bbed-d63170c979a5.png)
+
+### Screen 2
+- Mudança de tela ao adicionar o primeiro usuário.
 ![image](https://user-images.githubusercontent.com/107502907/187460234-0b38c84c-5a85-49a6-a057-b48a64e78e1e.png)
+
+### Screen 3
+- Mensagem ao tentar adicionar um usuário que não existe. ("alert")
 ![image](https://user-images.githubusercontent.com/107502907/187463612-97828a63-cbce-4698-ab17-a506394cc1e5.png)
+
+### Screen 4
+- Mensagem ao tentar adicionar um usuário já cadastrado. ("alert")
 ![image](https://user-images.githubusercontent.com/107502907/187464018-c9773cd8-af6d-4777-b60b-961d526a5aaf.png)
+
+### Screen 5
+- Mensagem ao clicar em excluir um usuário. ("confirm")
 ![image](https://user-images.githubusercontent.com/107502907/187464240-2dd84908-87c2-491e-aaaa-40dc79e5a9ef.png)
+
+### Screen 6
+- Lista de usuários com altura máxima atingida gerando barra de rolagem. ("scroll")
+![image](https://user-images.githubusercontent.com/107502907/192110638-b1cf48d0-9c38-406e-8cca-57ec7efcbd46.png)
 ![image](https://user-images.githubusercontent.com/107502907/187468688-c333fa17-615c-43d7-a423-191b9646cf9b.png)
 
 
 
 
 
+
+
+
+
+#
+# 🌎 English
