@@ -27,7 +27,7 @@ gera-se automaticamente um "scroll" personalizado no canto direito da "tbody".
 - JSON.parje(), .forEach(), .append();
 - e funções de alta ordem para arrays como .filter() e .find().
 
-### Implantações no CSS
+### Aprendizados em CSS
 
 - Scrollbar;
 - Overflow.
@@ -46,7 +46,7 @@ Para conferir a aplicação, acesse:
 
 ## Contato
 
-[![bio](https://img.shields.io/badge/bio_higomoreiraq-42D3FF?style=for-the-badge&logo=ko-fi&logoColor=white)](https://higomoreiraq.github.io/Bio-Higo-Moreira/)
+[![bio](https://img.shields.io/badge/bio_higomoreiraq-092E39?style=for-the-badge&logo=ko-fi&logoColor=white)](https://higomoreiraq.github.io/Bio-Higo-Moreira/)
 
 ## Screenshots
 
@@ -72,16 +72,76 @@ Para conferir a aplicação, acesse:
 
 ### Screen 6
 - Lista de usuários com altura máxima atingida gerando barra de rolagem. ("scroll")
-![image](https://user-images.githubusercontent.com/107502907/192110638-b1cf48d0-9c38-406e-8cca-57ec7efcbd46.png)
 ![image](https://user-images.githubusercontent.com/107502907/187468688-c333fa17-615c-43d7-a423-191b9646cf9b.png)
-
-
-
-
-
-
-
 
 
 #
 # 🌎 English
+
+# GitFav ⭐️
+
+Application to register your favorite Github profiles.
+
+## Description
+
+The application starts with a reset, where the user can configure it his way, with his favorite profiles.
+You can add and remove profiles as many times as you like, and the list will still be saved in your browser.
+
+If you try to insert a duplicate profile, you will receive a message in "alert()" stating "User already registered!"
+and if you want to delete one of the profiles already listed, you will also receive another message in "confirm()" asking "Do you really want to delete this user?"
+
+The list of users is made from a table, where by adding a certain amount of favorite profiles, enough to fill the maximum height of the table,
+a custom scroll is automatically generated in the right corner of the tbody.
+
+## Structure
+
+### Implementations in JavaScript:
+
+- Object orientation with the principle of Classes;
+- Principle of Immutability;
+- localStorage;
+- Try/Catch/Throw;
+- Asynchronisms with .fetch and async/await;
+- JSON.parje(), .forEach(), .append();
+- and higher-order functions for arrays like .filter() and .find().
+
+### CSS learning
+
+- Scrollbar;
+- Overflow.
+
+## Technologies used:
+
+- HTML;
+- CSS;
+- JavaScript.
+
+## Preview
+
+To check the application, go to:
+
+- https://higomoreiraq.github.io/gitfav/
+
+## Contact
+
+[![bio](https://img.shields.io/badge/bio_higomoreiraq-092E39?style=for-the-badge&logo=ko-fi&logoColor=white)](https://higomoreiraq.github.io/Bio-Higo-Moreira/)
+
+## Screenshots
+
+### Screen 1
+- Home page with empty user list.
+
+### Screen 2
+- Screen change when adding the first user.
+
+### Screen 3
+- Message when trying to add a user that does not exist. ("alert")
+
+### Screen 4
+- Message when trying to add an already registered user. ("alert")
+
+### Screen 5
+- Message when clicking delete a user. ("confirm")
+
+### Screen 6
+- List of users with maximum height reached generating scroll bar. ("scroll")
